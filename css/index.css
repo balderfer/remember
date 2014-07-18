@@ -53,7 +53,10 @@ body {
 
 /* Portrait layout (default) */
 .input {
-    margin: 100px 20px;
+    position: fixed;
+    width: 80%;
+    padding: 0 10%;
+    top: 100px;
 }
 
 .input h1 {
@@ -63,10 +66,17 @@ body {
     overflow:visible;
     padding:0px;
     text-align:center;
+}
+.input p {
+    font-size:14px;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
     margin-bottom: 20px;
 }
 
-.input input {
+.input textarea {
     width: 100%;
     padding: 0;
     font-family: inherit;
@@ -75,4 +85,6 @@ body {
     background: none;
     border: none;
     outline: none;
+    resize: none;
+    overflow: hidden;
 }
