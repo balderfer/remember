@@ -16,6 +16,6 @@
     <preference name="KeyboardShrinksView" value="true" />
 
     <feature name="Keyboard">
-        <param name="ios-package" value="CDVKeyboard" onload="true" />
-    </feature>
+            <param name="ios-package" value="IonicKeyboard" onload="true" />
+        </feature>
 </widget>
