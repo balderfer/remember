@@ -15,5 +15,7 @@
     <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
     <preference name="KeyboardShrinksView" value="true" />
 
-    <gap:plugin name="com.ionic.keyboard" version="1.0.1" />
+    <feature name="Keyboard">
+        <param name="ios-package" value="IonicKeyboard" onload="true" />
+    </feature>
 </widget>
