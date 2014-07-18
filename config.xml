@@ -12,4 +12,5 @@
     <access origin="*" />
     <preference name="orientation" value="portrait" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="false"
 </widget>
