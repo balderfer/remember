@@ -1,6 +1,7 @@
 jQuery(document).ready(function($) {
     $("#title-input").focus();
-    $("#title-input").blur(function(event) {
+    $("body").on('focus', '#title-input', function(event) {
+        event.preventDefault();
         document.body.scrollTop = 0;
     });
     $('textarea').keypress(function(e) {
