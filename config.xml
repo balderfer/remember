@@ -14,5 +14,5 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
     <preference name="HideKeyboardFormAccessoryBar" value="true"/>
-    <preference name="KeyboardShrinksView" value="true"/>
+    <preference name="KeyboardShrinksView" value="false"/>
 </widget>
