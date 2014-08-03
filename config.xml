@@ -16,4 +16,6 @@
     <preference name="KeyboardShrinksView" value="true" />
 
     <gap:plugin name="com.ionic.keyboard" version="1.0.1" />
+
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
 </widget>
